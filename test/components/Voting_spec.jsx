@@ -6,7 +6,7 @@ import {
 	Simulate } from 'react-addons-test-utils';
 import { List } from 'immutable';
 import { expect } from 'chai';
-import Voting from '../../src/components/Voting';
+import { Voting } from '../../src/components/Voting';
 
 describe('Voting', () => {
 	it('should render a pair of buttons', () => {
