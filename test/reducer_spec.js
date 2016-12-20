@@ -77,7 +77,7 @@ describe('Reducer', () => {
 					pair: ['Sunshine', 'Slumdog Millionaire']
 				}
 			}
-		},
+		};
 		const nextState = reducer(initialState, action);
 		expect(nextState).to.equal(fromJS({
 			vote: {
